@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Created by metro.config.js at each start of the dev server
+created-during-startup.js
