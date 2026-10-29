@@ -27,4 +27,4 @@ The development server, npm. The commands are PowerShell's.
 
 Expected: the bundle builds, since the file exists.
 
-What I see on Windows 11 with Node 26.12.1: the request answers 500, and the dev server prints `Unable to resolve module ./created-during-startup from …\App.js`, on every start. With the file written once the watcher listens instead (`$env:CREATE_AT = 'watch_end'; npx expo start`), the bundle builds.
+What I see on Windows 11 with Node 26.12.1: the request answers 500, and the dev server prints `Unable to resolve "./created-during-startup" from "App.js"`, on every start. With the file written once the watcher listens instead (`$env:CREATE_AT = 'watch_end'; npx expo start`), the bundle builds.
